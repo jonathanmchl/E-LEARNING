@@ -1,0 +1,12 @@
+.jumbotron{
+    background-image: url('/img/wow.png');
+
+}
+
+.album-card{
+    height: 500px;
+    width: 500px
+
+    ;
+   
+}
