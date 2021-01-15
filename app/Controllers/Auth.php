@@ -14,15 +14,20 @@ class Auth extends BaseController
 
 	public function index()
 	{
+		$model = new MatkulModel();
 		 $data = [
 
-            'nama'=>session()->get('user_name')
+			'nama'=>session()->get('user_name'),
+			
         ];
 		if (session()->get('logged_in')) {
 			if (session()->get('user_level') == 1) {
+				$data['matkul'] = $model->hitung();
+				$data['matkull'] = $model->hitungdosen();
+				$data['matkulll'] = $model->total();
+				$data['matkullll'] = $model->mata();
 				echo view('admin/pageadmin',$data);
 			} else {
-				$model = new MatkulModel();
 				$data['matkul'] = $model->getMatkulController();
 				// return view('user/aksesmatkul', $data);
 				echo view('user/aksesmatkul', $data);

@@ -2,7 +2,7 @@
     <div class="logo">
         <a href="https://www.creative-tim.com" class="simple-text logo-mini">
             <div class="logo-image-small">
-                <img src="../assets/img/logo-small.png">
+                <img src="../assets/img/userr.png">
             </div>
             <!-- <p>CT</p> -->
         </a>
@@ -17,49 +17,37 @@
         <ul class="nav">
             <li>
                 <a href="<?= base_url('/'); ?>">
-                    <i class="nc-icon nc-bank"></i>
+                    <i class="nc-icon nc-tile-56"></i>
                     <p>Dashboard</p>
                 </a>
             </li>
             <li>
                 <a href="<?= base_url('/MatkulController/index'); ?>">
-                    <i class="nc-icon nc-diamond"></i>
+                    <i class="nc-icon nc-cloud-upload-94"></i>
                     <p>Tambah Matkul</p>
                 </a>
             </li>
             <li>
                 <a href="<?= base_url('/tambahmateri'); ?>">
-                    <i class="nc-icon nc-pin-3"></i>
+                    <i class="nc-icon nc-single-copy-04"></i>
                     <p>Materi</p>
                 </a>
             </li>
             <li>
-                <a href="./notifications.html">
-                    <i class="nc-icon nc-bell-55"></i>
-                    <p>Notifications</p>
-                </a>
-            </li>
-            <li class="">
-                <a href="./user.html">
-                    <i class="nc-icon nc-single-02"></i>
-                    <p>User Profile</p>
-                </a>
-            </li>
-            <li>
-                <a href="./tables.html">
-                    <i class="nc-icon nc-tile-56"></i>
+            <a href="<?= base_url('/Absen/admin'); ?>">
+                    <i class="nc-icon nc-tap-01"></i>
                     <p>Presensi</p>
                 </a>
             </li>
             <li>
             <a href="<?= base_url('/Kuis/index'); ?>">
-                    <i class="nc-icon nc-caps-small"></i>
+                    <i class="nc-icon nc-bullet-list-67"></i>
                     <p>Kuis</p>
                 </a>
             </li>
             <li class="active-pro active">
                 <a href="<?= base_url('/Auth/logout'); ?>">
-                    <i class="nc-icon nc-spaceship"></i>
+                    <i class="nc-icon nc-button-power"></i>
                     <p>Logout</p>
                 </a>
             </li>

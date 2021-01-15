@@ -2,7 +2,7 @@
     <div class="logo">
         <a href="https://www.creative-tim.com" class="simple-text logo-mini">
             <div class="logo-image-small">
-                <img src="../assets/img/logo-small.png">
+                <img src="../assets/img/userr.png">
             </div>
             <!-- <p>CT</p> -->
         </a>
@@ -17,24 +17,15 @@
         <ul class="nav">
             <li class="">
                 <a href="<?= base_url('/'); ?>">
-                    <i class="nc-icon nc-spaceship"></i>
+                    <i class="nc-icon nc-tile-56"></i>
                     <p>Home</p>
                 </a>
             </li>
-            <li class="">
-                <a>
-                    <select class="form-control" id="kategori" name="kategori" aria-label="State" class="form-select">
-                        <option selected>My Courses</option>
-                        <option value="Teori">Teori</option>
-                        <option value="Responsi">Responsi</option>
-                        <option value="Praktikum">Praktikum</option>
-                    </select>
-                </a>
-            </li>
+            
             <ul class="nav">
                 <li class="active-pro active">
                     <a href="<?= base_url('/Auth/logout'); ?>">
-                        <i class="nc-icon nc-spaceship"></i>
+                        <i class="nc-icon nc-button-power"></i>
                         <p>Logout</p>
                     </a>
                 </li>

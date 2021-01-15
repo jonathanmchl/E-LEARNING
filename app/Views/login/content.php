@@ -27,7 +27,7 @@
                 </div>
             </div>
             <a href="<?= base_url('/register'); ?>">Create New Account</a>
-            <a href="#">Forgot Password?</a>
+            
             <?php if (session()->getFlashdata('msg')) : ?>
                 <div class="alert alert-danger"><?= session()->getFlashdata('msg') ?></div>
             <?php endif; ?>
